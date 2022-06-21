@@ -48,6 +48,7 @@
   
   .Tickets-passengers p {
     margin: 2px;
+    z-index: 1;
   }
   
   .Tickets-passengers span {
@@ -57,4 +58,5 @@
     font-size: 60px;
     color: #4F54A7;
     transform: rotate(-45deg);
+    z-index: 0;
   }

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './Passengers.css';
 
-export const Passengers = ({ state, send }) => {
+
+export const Passengers = ({ state, send ,context}) => {
   const [value, changeValue] = useState('');
 
   const onChangeInput = (e) => {
@@ -46,13 +47,23 @@ export const Passengers = ({ state, send }) => {
         >
           Agregar Pasajero
         </button>
-        <button
+        {
+          state.context.passengers.length > 0 &&
+          <> 
+          <button
           className='Passenger-pay button'
           type="button"
           onClick={goToTicket}
         >
           Ver mi ticket
         </button>
+          <div className='destino_container' ><p className='destino_name' >{context.selectedCountry}</p>
+           es un destino increible disfruta de su belleza</div>
+          </>
+        }
+
+    
+      
       </div>
     </form>
   );

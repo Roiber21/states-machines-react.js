@@ -37,3 +37,16 @@
   .Passengers-list_li {
     margin-bottom: 6px;
   }
+  .destino_name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #293684;
+  }
+  .destino_container{
+    margin: auto;
+    position: relative;
+    font-weight: bold;
+    left: 50%;
+    transition: 1s;
+  }
