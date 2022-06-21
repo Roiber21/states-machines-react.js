@@ -27,3 +27,13 @@
   .Passengers-title {
     margin-bottom: 16px;
   }
+  .Passengers-list {
+    align-self: flex-start;
+    list-style: none;
+    padding: 0;
+    text-align: start;
+  }
+  
+  .Passengers-list_li {
+    margin-bottom: 6px;
+  }
