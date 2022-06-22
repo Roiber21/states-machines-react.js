@@ -1,3 +1,21 @@
+
+# State Machines en React.js: Book a fly
+
+
+implementacion de un flujo de comprar boletos para
+un vuelo 
+ 
+## Demo
+
+https://roiber21.github.io/states-machines-react.js/
+
+## Features
+
+Nuestras consideraciones son:    
+- Se pueden agregar múltiples pasajeros.  
+-  En cualquier momento puedo cancelar la compra y volver al estado inicial.  
+-  Hay un listado de vuelos del cual seleccionar.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
